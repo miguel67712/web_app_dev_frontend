@@ -1,0 +1,24 @@
+GET https://task-management-backend-um19.onrender.com/api/tasks
+
+###
+GET http://localhost:5000/api/tasks/6973f1dd521ba12fa363df30
+
+###
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+    "title": "test the backend"
+}
+
+###
+PUT  http://localhost:5000/api/tasks/6973f1dd521ba12fa363df30
+Content-Type: application/json
+
+{
+    "title": "test the backend updated",
+    "completed" : true
+}
+
+###
+DELETE   http://localhost:5000/api/tasks/6973f1ce521ba12fa363df2e
